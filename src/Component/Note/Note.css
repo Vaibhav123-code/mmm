@@ -1,0 +1,41 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  justify-content: space-between;
+}
+.btns {
+  display: flex;
+  gap: 1rem;
+  background-color: transparent;
+  margin-bottom: 0.3rem;
+}
+button {
+  border: none;
+  border-radius: 0.3rem;
+}
+.icons {
+  cursor: pointer;
+  width: 100%;
+}
+.special {
+  margin: 0;
+ padding: 0;position: relative;
+ bottom: 1px;
+ background-color: white;
+}
+.edit-input {
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+
+}
+.edit-input input {
+  border: none;
+  padding: 0.5rem;
+  font-weight: 600;
+  font-size: large;
+}
+.edit-input input:focus {
+  outline: none;
+}
