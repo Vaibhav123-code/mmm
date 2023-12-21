@@ -46,7 +46,7 @@ const Note = ({ todo, onDelete, onEdit }) => {
             <label>
             <ColorLensRoundedIcon style={{ backgroundColor: {color}}} className='icons' />
               <input type='color' onChange={(e) => setColor(e.target.value)} style={{ display: 'none' }} />
-            </label>
+            </label >
           </div>
           </div>
         </div>
